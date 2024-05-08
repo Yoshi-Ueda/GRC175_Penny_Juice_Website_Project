@@ -1,0 +1,1783 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+    background-color: white;
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+#container {
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+li {
+    list-style: none;
+    background-color: white;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.footerlink {
+    color: white;
+}
+
+
+
+#header #nav {
+    width: 100%;
+    height:
+    background-color: white;
+    padding-top:
+    box-sizing: border-box;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    height: 160px;
+    width: 100%;
+    z-index: 9999;
+}
+
+#nav {
+    position: relative;
+}
+#nav #hamberger {
+    position: absolute;
+    top: 30px;
+    left: 3%;
+}
+#nav #menu {
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    font-size: 25px;
+}
+#nav #logo {
+    position: absolute;
+    top: -10px;
+    left:34%;
+}
+#nav #login {
+    position: absolute;
+    top: 15px;
+    left:74%;
+}
+#nav #register {
+    position: absolute;
+    top: 15px;
+    left:83%;
+}
+#nav #cart {
+    position: absolute;
+    top: 5px;
+    left: 91%;
+}
+#nav #search {
+    position: absolute;
+    top: 70px;
+    left: 74%;
+}
+#container {
+    z-index: 5;
+}
+details summary {
+  list-style: none;
+  cursor: pointer;
+}
+#hpleft {
+    position: absolute;
+    top: 45px;
+}
+#hpright {
+    position: absolute;
+    top: 45px;
+    left: 96%
+}
+
+
+ul {
+    display: flex;
+}
+
+
+details {
+    background-color: white;
+    z-index: 10;
+    width: 200px;
+    padding-left: 30px;
+    border: solid 2px black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 100px;
+    margin-left: 78%
+}
+
+
+#menubody {
+    position: relative;
+    background-color: #221d5d;
+    color: white;
+}
+#menubody a {
+    color: white;
+}
+#menuclose {
+    position: absolute;
+    top: 10px;
+    left:3%;
+}
+#menulogin {
+    position: absolute;
+    top: 20px;
+    left: 23%;
+}
+#menuregister {
+    position: absolute;
+    top: 20px;
+    left: 32%;
+}
+#menucart {
+    position: absolute;
+    top: 9px;
+    left: 41%;
+}
+
+#menuleftcolumn {
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    font-size: 20px;
+    border: none;
+    width: 150px;
+    height: 500px;
+    display:flex;
+    flex-flow: column;
+    justify-content:space-between;
+}
+#menurightcolumn {
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    font-size: 20px;
+    border: none;
+    width: 150px;
+    height: 235px;
+    display:flex;
+    flex-flow: column;
+    justify-content:space-between;
+}
+
+#menurightjuice {
+    position: absolute;
+    top: -15px;
+    left:50%;
+}
+
+
+
+.wrapper {
+    padding-top: 9rem;
+}
+#menu-bar {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+
+.item-infor {
+    display: flex;
+}
+.item-infor li {
+    padding-right: 15px;
+}
+
+.campaign {
+    position: relative;
+    padding-bottom: 30px;
+}
+.campaign p {
+    position: absolute;
+    left: 3%;
+}
+.campaign li {
+    display: flex;
+    padding-top: 80px;
+}
+#campaign01 {
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    font-size: 17px;
+}
+#campaign020304 {
+    position: absolute;
+    top:15%;
+    left: 87%;
+    font-size: 17px;
+    color: darkgray;
+}
+#campaignleft {
+    position: absolute;
+    top:15%;
+    left: 93%;
+}
+#campaignright {
+    position: absolute;
+    top:15%;
+    left: 95%;
+}
+
+
+.bestseller {
+    position: relative;
+}
+.bestseller p {
+    position: absolute;
+    left: 3%;
+}
+#bestseller {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#view_all_bestseller01 {
+    position: absolute;
+    top: 30px;
+    left: 78%;
+    font-size: 17px;
+}
+#view_all_bestseller02 {
+    position: absolute;
+    top: 30px;
+    left: 80%;
+    font-size: 17px;
+    color: darkgray;
+}
+#view_all_bestseller03 {
+    position: absolute;
+    top: 30px;
+    left: 87%;
+    font-size: 17px;
+}
+#bestsellerleft {
+    position: absolute;
+    top: 30px;
+    left: 83.5%;
+}
+#bestsellerright {
+    position: absolute;
+    top: 30px;
+    left: 85%;
+}
+#bestsellerspase01 {
+    position: absolute;
+    top: 11%;
+}
+#bestsellerspase02 {
+    position: absolute;
+    top: 11%;
+    left: 92%
+}
+
+.aboutus {
+    position: relative;
+}
+#aboutuspage {
+    padding-top: 48px;
+}
+.aboutus p {
+    position: absolute;
+    top: 20px;
+    left: 3%;
+    color: white
+}
+.aboutus #aboutus1 {
+    position: absolute;
+    top: 90px;
+    left: 8%;
+    font-size: 55px
+}
+.aboutus #aoubtus2 {
+    position: absolute;
+    top: 160px;
+    left: 8%;
+    font-size: 55px
+}
+.aboutus #aboutus3 {
+    position: absolute;
+    top: 230px;
+    left: 8%;
+    font-size: 55px;
+}
+.aboutus #aboutus4 {
+    position: absolute;
+    top: 370px;
+    left: 8%;
+    font-size: 18px;
+}
+.aboutus #aboutus5 {
+    position: absolute;
+    top: 395px;
+    left: 8%;
+    font-size: 18px;
+}
+.aboutus #aboutus6 {
+    position: absolute;
+    top: 420px;
+    left: 8%;
+    font-size: 18px;
+}
+.aboutus #learn_more {
+    position: absolute;
+    top: 450px;
+    left: 88%;
+    font-size: 20px;
+}
+.aboutus a {
+    color: white;
+}
+
+.aboutus {
+    margin-bottom: 50px;
+}
+#white_line {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+
+
+.news {
+    position: relative;
+}
+
+.news p {
+    position: absolute;
+    left: 3%;
+}
+.news #date1 {
+    position: absolute;
+    top: 70px;
+    left: 13.5%;
+    font-size: 20px;
+}
+.news #campaign_img1 {
+    position: absolute;
+    top: 65px;
+    left: 22.5%;
+}
+.news #news_text1 {
+    position: absolute;
+    top: 60px;
+    left: 35%;
+    font-size: 20px;
+}
+.news #date2 {
+    position: absolute;
+    top: 150px;
+    left: 13.5%;
+    font-size: 20px;
+}
+.news #campaign_img2 {
+    position: absolute;
+    top: 145px;
+    left: 22.5%;
+}
+.news #news_text2 {
+    position: absolute;
+    top: 140px;
+    left: 35%;
+    font-size: 20px;
+}
+.news #date3 {
+    position: absolute;
+    top: 230px;
+    left: 13.5%;
+    font-size: 20px;
+}
+.news #campaign_img3 {
+    position: absolute;
+    top: 225px;
+    left: 22.5%;
+}
+.news #news_text3 {
+    position: absolute;
+    top: 220px;
+    left: 35%;
+    font-size: 20px;
+}
+.news #view_all_news {
+    position: absolute;
+    top: 30px;
+    left: 88%;
+    font-size: 18px;
+}
+.news #news_line1 {
+    position: absolute;
+    top:190px;
+    left: 12.5%;
+}
+.news #news_line2 {
+    position: absolute;
+    top:110px;
+    left: 12.5%;
+}.news #news_line3 {
+    position: absolute;
+    top:270px;
+    left: 12.5%;
+}
+
+
+
+
+#topspace {
+    margin-top: 40px;
+}
+.hpjuicename1 {
+    position: absolute;
+    top: -25px;
+    left: 7.2%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 30px;
+    width: auto;
+}
+.hpjuicename2 {
+    position: absolute;
+    top: -25px;
+    left: 37%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 30px;
+    width: auto;
+}
+.hpjuicename3 {
+    position: absolute;
+    top: -25px;
+    left: 66.8%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 30px;
+    width: auto;
+}
+.hpjuicenamesub1 {
+    position: absolute;
+    top: -5px;
+    left: 7.2%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 15px;
+    width: auto;
+}
+.hpjuicenamesub2 {
+    position: absolute;
+    top: -5px;
+    left: 37%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 15px;
+    width: auto;
+}
+.hpjuicenamesub3 {
+    position: absolute;
+    top: -5px;
+    left: 66.8%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 15px;
+    width: auto;
+}
+
+
+
+footer{
+    margin-top: 400px
+}
+#breadcrumbs1 {
+    position: absolute;
+    top: -80px;
+    left: -2%;
+}
+#breadcrumbs2 {
+    position: absolute;
+    top: -80px;
+    left: 127%;
+}
+#footer-menu {
+    position: relative;
+}
+#footer-menu #logo2 {
+    position: absolute;
+    top: 200px;
+    left: 3%;
+}
+#footer-menu #fbicon {
+    position: absolute;
+    top: 240px;
+    left: 46%;
+}
+#footer-menu #xicon {
+    position: absolute;
+    top: 240px;
+    left: 54%;
+}
+.footer-frame {
+    border: hidden;
+    border-radius: 35px;
+    background-color: #221d5d;
+    margin: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+#logincart li {
+    font-size: 35px;
+    background-color: #221d5d;
+    color: white;
+    height: 100px;
+    line-height: 35px;
+}
+
+.footer-text li {
+    font-size: 18px;
+    background-color: #221d5d;
+    color: white;
+    height: 40px;
+    line-height: 35px;
+}
+.footerlink {
+    
+}
+
+#logincart {
+    display: block;
+}
+
+.footer-text{
+    display: inline-table;
+    padding-left: 180px
+}
+
+#footer-menu {
+    display: inline-flex;
+}
+
+
+#aboutus1 img {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+#aboutus1 {
+    position: relative;
+}
+#top {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: white;
+}
+#headline1 {
+    position: absolute;
+    top: 280px;
+    left: 130px;
+    color: white;
+    font-size: 40px;
+}
+#aboutexplanation {
+    position: absolute;
+    top: 380px;
+    left: 130px;
+    color: white;
+    font-size: 17px;
+}
+
+#aboutus2 {
+    position: relative;
+    padding-bottom: 700px;
+}
+#aboutus2 img {
+    position: absolute;
+    top: 0px;
+    right: 1.5%;
+}
+#aboutus2 hr {
+    position: absolute;
+    top: -10px;
+    left: 1%;
+    z-index: 50;
+}
+#pride {
+    position: absolute;
+    top: 0px;
+    left: 3%;
+    font-size: 23px;
+}
+#headline2 {
+    position: absolute;
+    top: 250px;
+    left: 6.5%;
+    font-size: 30px;
+}
+#explanation2 {
+    position: absolute;
+    top: 480px;
+    left: 6.5%;
+    font-size: 17px;
+}
+#explanation3 {
+    position: absolute;
+    top: 570px;
+    left: 6.5%;
+    font-size: 17px;
+}
+
+#aboutus3 {
+    position: relative;
+    padding-bottom: 700px;
+}
+#aboutus3 hr {
+    position: absolute;
+    top: 0px;
+    left: 1%;
+    z-index: 50;
+}
+#aboutus3 img {
+    position: absolute;
+    top: 10px;
+    right: 1.5%;
+}
+#commitments {
+    position: absolute;
+    top: 0px;
+    left: 3%;
+    font-size: 23px;
+}
+#headline3 {
+    position: absolute;
+    top: 270px;
+    left: 6.5%;
+    font-size: 30px;
+}
+#explanation4 {
+    position: absolute;
+    top: 500px;
+    left: 6.5%;
+    font-size: 17px;
+}
+#explanation5 {
+    position: absolute;
+    top: 600px;
+    left: 6.5%;
+    font-size: 17px;
+}
+
+
+#aboutus4 {
+    position: relative;
+    padding-bottom: 400px;
+}
+#aboutus4 hr {
+    position: absolute;
+    top: 0px;
+    left: 1%;
+    z-index: 50;
+}
+#aboutus4 img {
+    position: absolute;
+    top: 10px;
+    right: 1.5%;
+}
+#belief {
+    position: absolute;
+    top: 0px;
+    left: 3%;
+    font-size: 23px;
+}
+#headline4 {
+    position: absolute;
+    top: 320px;
+    left: 6.5%;
+    font-size: 30px;
+}
+#explanation6 {
+    position: absolute;
+    top: 480px;
+    left: 6.5%;
+    font-size: 17px;
+}
+#explanation7 {
+    position: absolute;
+    top: 580px;
+    left: 6.5%;
+    font-size: 17px;
+}
+
+
+
+#belt{
+    position: relative;
+    padding-top:40px;
+}
+.box {
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    background-color: #221d5d;
+}
+#title-alljuice {
+    position: relative;
+    top: 160px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+#breadcrumbs-alljuice1 {
+    position: absolute;
+    top:170px;
+    left: 3%;
+    color: white;
+}
+
+#buttoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 200px;
+}
+
+.row {
+    position: relative;
+    margin-bottom: 180px;
+}
+
+
+.graycircle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 0px;
+}
+.alljuice1 {
+    position: absolute;
+    top: 0px;
+    left: 9.1%;
+}
+.alljuice2 {
+    position: absolute;
+    top: 0px;
+    left: 33.5%;
+}
+.alljuice3 {
+    position: absolute;
+    top: 0px;
+    left: 57.8%;
+}
+.alljuice4 {
+    position: absolute;
+    top: 0px;
+    left: 82.1%;
+}
+.juice-name {
+    font-size: 15px;
+    color: white;
+}
+.juicename1 {
+    position: absolute;
+    top: 180px;
+    left: 3.3%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 30px;
+    width: auto;
+}
+.juicename2 {
+    position: absolute;
+    top: 180px;
+    left:28.3%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 30px;
+    width: auto;
+}
+.juicename3 {
+    position: absolute;
+    top:180px;
+    left:53.3%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 30px;
+    width: auto;
+}
+.juicename4 {
+    position: absolute;
+    top: 180px;
+    left: 78.3%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 30px;
+    width: auto;
+}
+
+.sub-text {
+    font-size: 10px;
+    color: white;
+}
+.sub1 {
+    position: absolute;
+    top:200px;
+    left:3.3%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 15px;
+    width: auto;
+}
+.sub2 {
+    position: absolute;
+    top:200px;
+    left:28.3%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 15px;
+    width: auto;
+}
+.sub3 {
+    position: absolute;
+    top:200px;
+    left: 53.3%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 15px;
+    width: auto;
+}
+.sub4 {
+    position: absolute;
+    top:200px;
+    left:78.3%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 15px;
+    width: auto;
+}
+
+.alljuicedetail1-1 {
+    position: absolute;
+    top:250px;
+    left: 4%;
+    font-size: 15px;
+}
+.alljuicedetail1-1:before {
+    position: absolute;
+    margin:-10px;
+    margin-top: 1px;
+    content: "";
+    width: 3px;
+    height: 130px;
+    background-color: black;
+}
+.alljuicedetail1-2 {
+    position: absolute;
+    top: 290px;
+    left: 4%;
+    font-size: 15px;
+}
+.alljuicedetail1-3 {
+    position: absolute;
+    top: 320px;
+    left: 4%;
+    font-size: 9px;
+}
+.alljuicedetail1-4 {
+    position: absolute;
+    top: 250px;
+    left: 10%;
+    font-size: 15px;
+}
+.alljuicedetail1-4:after {
+    position: absolute;
+    margin:10px;
+    margin-top: -2px;
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: black;
+}
+.alljuicedetail1-5 {
+    position: absolute;
+    top: 230px;
+    left: 16%;
+    font-size: 15px;
+}
+.alljuicedetail1-6 {
+    position: absolute;
+    top: 250px;
+    left: 17.5%;
+}
+.alljuicedetail1-7 {
+    position: absolute;
+    top: 252px;
+    left: 19%;
+}
+.alljuicedetail1-8 {
+    position: absolute;
+    top: 290px;
+    left: 10%;
+    font-size: 9px;
+}
+.alljuicedetail2-1 {
+    position: absolute;
+    top:250px;
+    left: 29%;
+    font-size: 15px;
+}
+.alljuicedetail2-1:before {
+    position: absolute;
+    margin:-10px;
+    margin-top: 1px;
+    content: "";
+    width: 3px;
+    height: 130px;
+    background-color: black;
+}
+.alljuicedetail2-2 {
+    position: absolute;
+    top: 290px;
+    left: 29%;
+    font-size: 15px;
+}
+.alljuicedetail2-3 {
+    position: absolute;
+    top: 320px;
+    left: 29%;
+    font-size: 9px;
+}
+.alljuicedetail2-4 {
+    position: absolute;
+    top: 250px;
+    left: 35%;
+    font-size: 15px;
+}
+.alljuicedetail2-4:after {
+    position: absolute;
+    margin:10px;
+    margin-top: -2px;
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: black;
+}
+.alljuicedetail2-5 {
+    position: absolute;
+    top: 230px;
+    left: 41%;
+    font-size: 15px;
+}
+.alljuicedetail2-6 {
+    position: absolute;
+    top: 250px;
+    left: 42.5%;
+}
+.alljuicedetail2-7 {
+    position: absolute;
+    top: 252px;
+    left: 44%;
+}
+.alljuicedetail2-8 {
+    position: absolute;
+    top: 290px;
+    left: 35%;
+    font-size: 9px;
+}
+.alljuicedetail3-1 {
+    position: absolute;
+    top:250px;
+    left: 54%;
+    font-size: 15px;
+}
+.alljuicedetail3-1:before {
+    position: absolute;
+    margin:-10px;
+    margin-top: 1px;
+    content: "";
+    width: 3px;
+    height: 130px;
+    background-color: black;
+}
+.alljuicedetail3-2 {
+    position: absolute;
+    top: 290px;
+    left: 54%;
+    font-size: 15px;
+}
+.alljuicedetail3-3 {
+    position: absolute;
+    top: 320px;
+    left: 54%;
+    font-size: 9px;
+}
+.alljuicedetail3-4 {
+    position: absolute;
+    top: 250px;
+    left: 60%;
+    font-size: 15px;
+}
+.alljuicedetail3-4:after {
+    position: absolute;
+    margin:10px;
+    margin-top: -2px;
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: black;
+}
+.alljuicedetail3-5 {
+    position: absolute;
+    top: 230px;
+    left: 66%;
+    font-size: 15px;
+}
+.alljuicedetail3-6 {
+    position: absolute;
+    top: 250px;
+    left: 67.5%;
+}
+.alljuicedetail3-7 {
+    position: absolute;
+    top: 252px;
+    left: 69%;
+}
+.alljuicedetail3-8 {
+    position: absolute;
+    top: 290px;
+    left: 60%;
+    font-size: 9px;
+}
+.alljuicedetail4-1 {
+    position: absolute;
+    top:250px;
+    left: 79%;
+    font-size: 15px;
+}
+.alljuicedetail4-1:before {
+    position: absolute;
+    margin:-10px;
+    margin-top: 1px;
+    content: "";
+    width: 3px;
+    height: 130px;
+    background-color: black;
+}
+.alljuicedetail4-2 {
+    position: absolute;
+    top: 290px;
+    left: 79%;
+    font-size: 15px;
+}
+.alljuicedetail4-3 {
+    position: absolute;
+    top: 320px;
+    left: 79%;
+    font-size: 9px;
+}
+.alljuicedetail4-4 {
+    position: absolute;
+    top: 250px;
+    left: 85%;
+    font-size: 15px;
+}
+.alljuicedetail4-4:after {
+    position: absolute;
+    margin:10px;
+    margin-top: -2px;
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: black;
+}
+.alljuicedetail4-5 {
+    position: absolute;
+    top: 230px;
+    left: 91%;
+    font-size: 15px;
+}
+.alljuicedetail4-6 {
+    position: absolute;
+    top: 250px;
+    left: 92.5%;
+}
+.alljuicedetail4-7 {
+    position: absolute;
+    top: 252px;
+    left: 94%;
+}
+.alljuicedetail4-8 {
+    position: absolute;
+    top: 290px;
+    left: 85%;
+    font-size: 9px;
+}
+#alljuicebottomline {
+    position: absolute;
+    top:2150px;
+    left: 30px;
+}
+#recommendationsbottomline {
+    position: absolute;
+    top:880px;
+    left: 30px;
+}
+#bestsellerbottomline {
+    position: absolute;
+    top:880px;
+    left: 30px;
+}
+
+.bestsellergraycircle {
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+.bestsellerjuice {
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+    margin-top: -225px;
+}
+.bestsellerjuicename1 {
+    position: absolute;
+    top:180px;
+    left:6.8%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 30px;
+    width: auto;
+}
+.bestsellerjuicename2 {
+    position: absolute;
+    top:180px;
+    left:39.3%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 30px;
+    width: auto;
+}
+.bestsellerjuicename3 {
+    position: absolute;
+    top:180px;
+    left:73.2%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 30px;
+    width: auto;
+}
+.bestsellersub1 {
+    position: absolute;
+    top:200px;
+    left:6.8%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 15px;
+    width: auto;
+}
+.bestsellersub2 {
+    position: absolute;
+    top:200px;
+    left:39.3%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 15px;
+    width: auto;
+}
+.bestsellersub3 {
+    position: absolute;
+    top:200px;
+    left:73.2%;
+    background-color: #221d5d;
+    text-align: center;
+    padding: 3px 15px;
+    width: auto;
+}
+.bestsellerjuicedetail1-1 {
+    position: absolute;
+    top:250px;
+    left: 7.5%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail1-1:before {
+    position: absolute;
+    margin:-10px;
+    margin-top: 1px;
+    content: "";
+    width: 3px;
+    height: 130px;
+    background-color: black;
+}
+.bestsellerjuicedetail1-2 {
+    position: absolute;
+    top: 290px;
+    left: 7.5%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail1-3 {
+    position: absolute;
+    top: 320px;
+    left: 7.5%;
+    font-size: 9px;
+}
+.bestsellerjuicedetail1-4 {
+    position: absolute;
+    top: 250px;
+    left: 14%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail1-4:after {
+    position: absolute;
+    margin:10px;
+    margin-top: -2px;
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: black;
+}
+.bestsellerjuicedetail1-5 {
+    position: absolute;
+    top: 230px;
+    left: 20%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail1-6 {
+    position: absolute;
+    top: 250px;
+    left: 21.5%;
+}
+.bestsellerjuicedetail1-7 {
+    position: absolute;
+    top: 252px;
+    left: 23%;
+}
+.bestsellerjuicedetail1-8 {
+    position: absolute;
+    top: 290px;
+    left: 14%;
+    font-size: 9px;
+}
+.bestsellerjuicedetail2-1 {
+    position: absolute;
+    top:250px;
+    left: 40%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail2-1:before {
+    position: absolute;
+    margin:-10px;
+    margin-top: 1px;
+    content: "";
+    width: 3px;
+    height: 130px;
+    background-color: black;
+}
+.bestsellerjuicedetail2-2 {
+    position: absolute;
+    top: 290px;
+    left: 40%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail2-3 {
+    position: absolute;
+    top: 320px;
+    left: 40%;
+    font-size: 9px;
+}
+.bestsellerjuicedetail2-4 {
+    position: absolute;
+    top: 250px;
+    left: 46%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail2-4:after {
+    position: absolute;
+    margin:10px;
+    margin-top: -2px;
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: black;
+}
+.bestsellerjuicedetail2-5 {
+    position: absolute;
+    top: 230px;
+    left: 52%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail2-6 {
+    position: absolute;
+    top: 250px;
+    left: 53.5%;
+}
+.bestsellerjuicedetail2-7 {
+    position: absolute;
+    top: 252px;
+    left: 55%;
+}
+.bestsellerjuicedetail2-8 {
+    position: absolute;
+    top: 290px;
+    left: 46%;
+    font-size: 9px;
+}
+.bestsellerjuicedetail3-1 {
+    position: absolute;
+    top:250px;
+    left: 74%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail3-1:before {
+    position: absolute;
+    margin:-10px;
+    margin-top: 1px;
+    content: "";
+    width: 3px;
+    height: 130px;
+    background-color: black;
+}
+.bestsellerjuicedetail3-2 {
+    position: absolute;
+    top: 290px;
+    left: 74%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail3-3 {
+    position: absolute;
+    top: 320px;
+    left: 74%;
+    font-size: 9px;
+}
+.bestsellerjuicedetail3-4 {
+    position: absolute;
+    top: 250px;
+    left: 80%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail3-4:after {
+    position: absolute;
+    margin:10px;
+    margin-top: -2px;
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: black;
+}
+.bestsellerjuicedetail3-5 {
+    position: absolute;
+    top: 230px;
+    left: 86%;
+    font-size: 15px;
+}
+.bestsellerjuicedetail3-6 {
+    position: absolute;
+    top: 250px;
+    left: 87.5%;
+}
+.bestsellerjuicedetail3-7 {
+    position: absolute;
+    top: 252px;
+    left: 89%;
+}
+.bestsellerjuicedetail3-8 {
+    position: absolute;
+    top: 290px;
+    left: 80%;
+    font-size: 9px;
+}
+
+
+
+.cart_top {
+    position: relative;
+    padding-top: 150px;
+    z-index: ;
+}
+#your_cart {
+    position: absolute;
+    top: 230px;
+    left: 5%;
+    font-size: 40px;
+}
+#continueshopping {
+    position: absolute;
+    top: 270px;
+    right: 4%;
+    z-index: 1000;
+}
+#quantity {
+    position: absolute;
+    top: 380px;
+    left: 56%;
+    font-size: 15px;
+}
+#total {
+    position: absolute;
+    top: 380px;
+    right: 4%;
+    font-size: 15px;
+}
+#cart_top_line2 {
+    position:absolute;
+    top: 420px;
+    left: 1%
+}
+
+#cart_body {
+    position: relative;
+}
+#cart_body_line1 {
+    position: absolute;
+    top: 900px;
+    
+}
+.cart_row1 {
+    position: relative;
+    padding-bottom: 200px;
+}
+.cart_row2 {
+    position: relative;
+    padding-bottom: 200px;
+}
+.cart_row3 {
+    position: relative;
+    padding-bottom: 200px;
+}
+
+
+.graysquare {
+    position: absolute;
+    top: 300px;
+    left: 4%;
+}
+.cart_drink {
+    position: absolute;
+    top: 300px;
+    left: 5.5%;
+}
+.cart_text {
+    position: absolute;
+    top: 300px;
+    left: 20%;
+    color: white;
+    background-color: #221d5d;
+    height: 30px;
+    width: 170px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart_subtext {
+    position: absolute;
+    top: 320px;
+    left: 20%;
+    color: white;
+    background-color: #221d5d;
+    font-size: 13px;
+    height: 25px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart_price {
+    position: absolute;
+    top: 370px;
+    left: 20%;
+}
+.cart_number {
+    position: absolute;
+    top:320px;
+    left: 56%;
+    width:200px;
+    height:50px;
+    background:#E6E6E6;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.cart_trushcan {
+    position: absolute;
+    top: 335px;
+    left: 75%;
+}
+.cart_total {
+    position: absolute;
+    top: 315px;
+    right: 4%;
+}
+
+#subtotal {
+    position: relative;
+}
+#cart_subtotal {
+    position: absolute;
+    top: 300px;
+    left: 67%;
+    font-size: 35px;
+}
+#cart_totalprice {
+    position: absolute;
+    top: 305px;
+    right: 4%;
+    font-size: 30px;
+}
+#cart_checkouttext {
+    position: absolute;
+    top: 380px;
+    right: 4%;
+    font-size: 15px;
+}
+#cart_checkbuttons {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    top: 450px;
+    right: 4%;
+}
+#cart_checkbuttons img {
+    margin-bottom: 30px;
+}
+
+
+#cart_bestseller {
+    position: relative;
+    padding-top: 1100px;
+}
+#cart_bstext {
+    position: absolute;
+    top: 980px;
+    left: 8%;
+    font-size: 35px;
+}
+#cart_juicename1 {
+    position: absolute;
+    top: 1330px;
+    left: 8%;
+}
+#cart_juicename2 {
+    position: absolute;
+    top: 1330px;
+    left: 41.5%;
+}
+#cart_juicename3 {
+    position: absolute;
+    top: 1330px;
+    left: 75%;
+}
+#cart_juiceprice1 {
+    position: absolute;
+    top: 1370px;
+    left:8%;
+}
+#cart_juiceprice2 {
+    position: absolute;
+    top: 1370px;
+    left:41.5%;
+}
+#cart_juiceprice3 {
+    position: absolute;
+    top: 1370px;
+    left:75%;
+}
+#cart_viewalljuice {
+    position: absolute;
+    top: 1500px;
+    left:41.5%;
+}
+
+
+.login_body {
+    position: relative;
+    padding-top: 150px;
+}
+.Login_text {
+    position: absolute;
+    font-size: 30px;
+    top: 165px;
+    left: 45.5%;
+    font-size: 40px;
+}
+.Register_text {
+    position: absolute;
+    font-size: 30px;
+    top: 165px;
+    left: 38%;
+    font-size: 40px;
+}
+.email-group input {
+    margin-top: 130px;
+    margin-left: 28%;
+    width: 45%;
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 25px;
+    outline: none;
+}
+#email-group input {
+    margin-left: 28%;
+    width: 45%;
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 25px;
+    outline: none;
+}
+.password-group input {
+    margin-left: 28%;
+    width: 45%;
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 25px;
+    outline: none;
+}
+.fname-group input {
+    margin-top: 130px;
+    margin-left: 28%;
+    width: 45%;
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 25px;
+    outline: none;
+}
+.lname-group input {
+    margin-left: 28%;
+    width: 45%;
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 25px;
+    outline: none;
+}
+
+
+
+#Login_forgot {
+    position: absolute;
+    top: 440px;
+    left: 28%;
+    font-size: 15px;
+    text-decoration: underline;
+}
+#submit {
+    margin-top: 100px;
+    margin-left: 45%;
+    background-color: #221d5d;
+    color: white;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#submit hover {
+    background-color: #1d1858;
+}
+#submit2 {
+    margin-top: 50px;
+    margin-left: 43%;
+    margin-bottom: 50px;
+    background-color: #221d5d;
+    color: white;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#submit2 hover {
+    background-color: #1d1858;
+}
+#login_button {
+    position: absolute;
+    top: 580px;
+    left: 44.5%;
+    padding: 200px;
+}
+#login_body2 {
+    position: relative;
+    padding-top: 30px;
+}
+#loginline {
+    display: flex;
+    justify-content: space-evenly;
+}
+#loginor {
+    position: absolute;
+    top: -20px;
+    font-size: 20px;
+}
+#loginfbtext {
+    position: absolute;
+    top: 100px;
+    left: 28%;
+    border: 2px solid black;
+    width: 650px;
+    text-align: center;
+    font-size: 20px;
+}
+#loginfbicon {
+    position: absolute;
+    top: 110px;
+    left: 38%;
+}
+#loginxtext {
+    position: absolute;
+    top: 200px;
+    left: 28%;
+    border: 2px solid black;
+    width: 650px;
+    text-align: center;
+    font-size: 20px;
+}
+#loginxicon {
+    position: absolute;
+    top: 210px;
+    left: 38%;
+}
+#logincreate {
+    position: absolute;
+    top: 260px;
+    left: 44.5%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#registercreate {
+    position: absolute;
+    top: 750px;
+    left: 41%;
+    font-size: 20px;
+    text-decoration: underline;
+}
